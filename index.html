@@ -15,6 +15,40 @@
     <title>Weather App</title>
   </head>
   <body>
+    <div class="container">
+      <div>
+        <form id="city-search">
+          <div class="row">
+            <div class="col-9">
+              <input
+                id="inputCity"
+                placeholder="Search for your city"
+                class="form-control"
+              />
+            </div>
+            <div class="col-3">
+              <input
+                type="submit"
+                value="Search"
+                class="form-control btn btn-primary"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+      <br />
+      <div class="dayOverview">
+        <h1 class="city">New York</h1>
+        <ul>
+          <li>
+            Last Updated:
+            <span class="date">Monday, January 31, 8:26 pm</span>
+          </li>
+          <li class="conditions">mostly sunny</li>
+        </ul>
+      </div>
+      
+    </div>
     <script src="src/app.js"></script>
   </body>
 </html>
