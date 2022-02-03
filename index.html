@@ -17,6 +17,7 @@
   <body>
     <div class="container">
       <div class="wrapper">
+        <div class="weather-app">
         <div>
           <form id="city-search">
            <div class="row">
@@ -38,7 +39,7 @@
           </form>
        </div>
        <br />
-       <div class="dayOverview">
+       <div class="day-verview">
          <h1 class="city">New York</h1>
          <ul>
            <li>
@@ -50,7 +51,8 @@
        </div>
        <div class="row">
           <div class="col-6">
-            <div class="temperature">50 <span class="unit">℉/℃</span> </div>
+            <div class="temperature">
+              <strong class="weather-temperature">50 <span class="unit">℉/℃</span> </strong></div>
             </div>
          </div>
           <div class="col-6">
@@ -61,13 +63,15 @@
              <li>
                 <span class="wind">2</span>mph
               </li>
-          </ul>
-         </div>
+           </ul>
+           </div>
+          </div>
         </div>
+        <small>
+            <a href="https://github.com/Lynlee21/weather-app">Open-source code</a> by Lynlee Anderson
+        </small>
       </div>
     </div>
-    <small>
-    <a href="https://github.com/Lynlee21/weather-app">Open-source code</a> by Lynlee Anderson
-    </small><script src="src/app.js"></script>
+    <script src="src/app.js"></script>
   </body>
 </html>

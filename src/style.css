@@ -1,5 +1,4 @@
 body {
-  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 .wrapper {
@@ -7,7 +6,6 @@ body {
   border-radius: 15px;
   box-shadow: 5px 5px 5px rgba(145, 134, 134, 0.3);
   margin: 0 auto;
-  padding: 24px;
   max-width: 600px;
   margin: 30px auto;
 }
@@ -18,4 +16,36 @@ h1 {
 small {
   font-family: monospace;
   text-align: center;
+}
+li:first-letter {
+  text-transform: capitalize;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
+.weather-app {
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+}
+.temperature strong {
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+.day-overview {
+  margin-bottom: 18px;
+}
+.temperature .unit {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
 }
