@@ -18,57 +18,56 @@
     <div class="container">
       <div class="wrapper">
         <div class="weather-app">
-        <div>
-          <form id="city-search">
-           <div class="row">
-              <div class="col-9">
-                <input
-                 id="inputCity"
-                  placeholder="Search for your city"
-                  class="form-control"
-                />
+          <div>
+            <form id="city-search">
+              <div class="row">
+                <div class="col-9">
+                  <input
+                    id="inputCity"
+                    placeholder="Search for your city"
+                    class="form-control"
+                  />
+                </div>
+                <div class="col-3">
+                  <input
+                    type="submit"
+                    value="Search"
+                    class="form-control btn btn-primary"
+                  />
+                </div>
               </div>
-             <div class="col-3">
-                <input
-                  type="submit"
-                 value="Search"
-                 class="form-control btn btn-primary"
-               />
-             </div>
-           </div>
-          </form>
-       </div>
-       <br />
-       <div class="day-verview">
-         <h1 class="city">New York</h1>
-         <ul>
-           <li>
-              Last Updated:
-             <span class="date">Monday, January 31, 8:26 pm</span>
-            </li>
-           <li class="conditions">mostly sunny</li>
-         </ul>
-       </div>
-       <div class="row">
-          <div class="col-6">
-            <div class="temperature">
-              <strong class="weather-temperature">50 <span class="unit">℉/℃</span> </strong></div>
-            </div>
-         </div>
-          <div class="col-6">
+            </form>
+          </div>
+          <br />
+          <div class="day-verview">
+            <h1 class="city">New York</h1>
             <ul>
               <li>
-             Humidity: <span class="humidity">63</span>%
-             </li>
-             <li>
-                <span class="wind">2</span>mph
+                Last Updated:
+                <span id="date"></span>
               </li>
-           </ul>
-           </div>
+              <li id="conditions"></li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <div class="temperature">
+                <strong class="weather-temperature"
+                  >50 <span class="unit">℉/℃</span>
+                </strong>
+              </div>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>Humidity: <span class="humidity">63</span>%</li>
+                <li>Wind: <span class="wind">2 </span>mph</li>
+              </ul>
+            </div>
           </div>
         </div>
         <small>
-            <a href="https://github.com/Lynlee21/weather-app">Open-source code</a> by Lynlee Anderson
+          <a href="https://github.com/Lynlee21/weather-app">Open-source code</a>
+          by Lynlee Anderson
         </small>
       </div>
     </div>
