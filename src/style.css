@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f4f2;
+  background-color: #e8e8e8;
 }
 
 h1 {
@@ -46,7 +46,7 @@ li:first-letter {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
-  background-color: #e8e8e8;
+  background-color: #f4f4f2;
 }
 
 .overview {
@@ -55,8 +55,9 @@ li:first-letter {
 
 .weather-temperature img {
   margin-right: 5px;
-  height: 64px;
-  width: 64px;
+  margin-bottom: 40px;
+  height: 72px;
+  width: 72px;
 }
 
 .weather-temperature strong {
@@ -70,4 +71,14 @@ li:first-letter {
   position: relative;
   font-size: 16px;
   top: -34px;
+}
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+  text-decoration: none;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
